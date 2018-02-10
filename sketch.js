@@ -7,7 +7,7 @@ var calculated;
 var pixelBuffer = 0;
 
 function setup() {
-createCanvas(1000,700);
+createCanvas(1200,700);
     
     p1 = new p5.Vector(width/2, 10);
     p2 = new p5.Vector(10, height-10);
