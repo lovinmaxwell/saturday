@@ -20,7 +20,7 @@ createCanvas(1200,700);
 
 
 function draw() {
-    framrate (250);
+   
 background(250);
 
      if (lerper.dist(target) < 1) target = new p5.Vector(random(pixelBuffer,width - pixelBuffer),random(pixelBuffer,height - pixelBuffer));
